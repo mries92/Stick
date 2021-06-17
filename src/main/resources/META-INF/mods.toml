@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+issueTrackerURL="https://github.com/mries92/Stick/issues"
+showAsResourcePack=false
+license="MIT"
+
+[[mods]]
+    modId="stick"
+    version="1.0.0-alpha"
+    displayName="Stick"
+    logoFile="stick.png"
+    authors="REEEfactor"
+    description="Break stick, get more stick."
+
+    [[dependencies.stick]]
+        modId="forge"
+        mandatory=true
+        versionRange="[34,)"
+        ordering="NONE"
+        side="BOTH"
+
+    [[dependencies.stick]]
+        modId="minecraft"
+        mandatory=true
+        versionRange="[1.16.5]"
+        ordering="NONE"
+        side="BOTH"
