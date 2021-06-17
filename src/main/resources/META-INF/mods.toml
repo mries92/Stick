@@ -8,7 +8,7 @@ license="MIT"
     modId="stick"
     version="1.0.0-alpha"
     displayName="Stick"
-    logoFile="stick.png"
+    logoFile="icon.png"
     authors="REEEfactor"
     description="Break stick, get more stick."
 
